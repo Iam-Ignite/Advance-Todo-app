@@ -1,0 +1,47 @@
+.todo-item-container {
+    background: #fff;
+    border-radius: 8px;
+    margin-top: 8px;
+    padding: 16px;
+    width: 100%;
+    margin: 30px;
+    position: relative;
+    box-shadow: 0 4px 8px grey;
+}
+h3{
+    margin-right: 35rem;
+}
+.buttons-container {
+    position: absolute;
+    right: 12px;
+    bottom: 12px;
+}
+
+.todo-item-container:nth-child(even) {
+        color: rgb(47, 117, 209);
+ }
+
+
+.todo-item-container:nth-child(odd) {
+        color: rgb(226, 43, 217);
+ }
+
+button {
+    font-size: 16px;
+    padding: 8px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    cursor: pointer;
+}
+
+.completed-button {
+    display: inline-block;
+    background-color: #12d812;
+}
+
+.remove-button {
+    display: inline-block;
+    background-color: #ff2323;
+    margin-left: 8px;
+}
